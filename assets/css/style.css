@@ -1,0 +1,18 @@
+body {
+
+background-image:url("../images/starwarsBackground.jpg");
+
+}
+
+.page-header {
+  background-color:yellow;
+  border-style:black,solid;
+}
+
+
+.container {
+  background-color:white;
+  border-style:yellow;
+
+  height: 600px;
+}
