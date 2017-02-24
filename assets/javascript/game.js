@@ -2,12 +2,15 @@ $(document).ready(function() {
 
 
 
-    var player1 = {
+    var player1("#lukeSkywalker") = { 
     hpCounter:120,
     attackPower:35,
+    counterAttack:50,
     attack:function(otherPlayer) {
       otherPlayer.hp - this.attackPower
     }
+
+    
 
     };
 
