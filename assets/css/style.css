@@ -5,14 +5,101 @@ background-image:url("../images/starwarsBackground.jpg");
 }
 
 .page-header {
-  background-color:yellow;
+  /*background-color:white;*/
   border-style:black,solid;
+  font-size:30px;
+  color:white;
+  text-align:center;
+  height:60px;
 }
 
 
 .container {
-  background-color:white;
-  border-style:yellow;
+  /*background-color:white;*/
 
-  height: 600px;
+
 }
+
+
+.characterSelection {
+
+  background-color: yellow;
+  height:250px;
+
+  width:100%;
+
+}
+
+
+
+
+
+
+.lukeSkywalker {
+
+  float:left;
+  background-color: gray;
+  z-index:1;
+
+ 
+}
+
+
+
+.obiwan {
+
+  float:left;
+  background-color: gray;
+  z-index:1;
+
+ 
+}
+
+
+
+.darthVader {
+
+  float:left;
+  background-color: gray;
+  z-index:1;
+
+ 
+}
+
+
+.darthSidious {
+
+  float:left;
+  background-color: gray;
+  z-index:1;
+
+ 
+}
+
+
+
+
+
+.enemiesAttack {
+  background-color:red;
+  height:100px;
+
+
+}
+
+
+.defenderArea {
+  background-color:green;
+  height:100px;
+
+}
+
+
+.resetPrompt {
+
+  background-color:purple;
+  height:100px;
+
+
+}
+
