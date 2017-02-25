@@ -19,8 +19,7 @@ background-image:url("../images/starwarsBackground.jpg");
 
 
 .container {
-  /*background-color:white;*/
-
+  
 
 }
 
@@ -34,9 +33,7 @@ background-image:url("../images/starwarsBackground.jpg");
 
 
 
-
 }
-
 
 
 
@@ -45,8 +42,13 @@ background-image:url("../images/starwarsBackground.jpg");
   height:150px;
   width:150px;
   z-index:1;
+  padding:15px;
+  background-color:white;
   
 }
+
+
+
 
 
 
@@ -56,10 +58,6 @@ background-image:url("../images/starwarsBackground.jpg");
   background-color: green;
   
   position:relative;
-  height:10px;
-
-
-
 
  
 }

@@ -1,5 +1,5 @@
 /*Code below will run once the DOM is ready*/
-$(document).ready(function(){
+$(document).ready(function() {
   /*console.log( 'ready!' );*/
 
 
@@ -11,11 +11,15 @@ $(document).ready(function(){
   attack:function(otherPlayer) {
     otherPlayer.hp - this.attackPower
   }
-  attackIncrease:function(otherPlayer) {
-    otherPlayer.hp - this.attackPower[1] ++;
-  }
-
+  
   };
+  // attackIncrease:function(otherPlayer) {
+  //   otherPlayer.hp - this.attackPower[1] ++;
+  // }
+
+  
+
+  $("#lukeSkywalker").html(hpCounter);
 
   
   var player2 = {
@@ -74,7 +78,7 @@ $(document).ready(function(){
     };
   })*/
 
-
+  /*startGame(){
 
 
   $("#lukeSkywalker").on("click","a,img", function (e) {
@@ -96,9 +100,19 @@ $(document).ready(function(){
         e.preventDefault();
         console.log('You Clicked Me');
       });
+  };
+
+
+    selectEnemy:funtion();
+
+
+    attack:function();
 
 
 
+    gameReset:function();
+
+*/
 
 
 
